@@ -1,4 +1,4 @@
-# Digitacodigo
+# Digita Código
 
 ## Bem vindo ao canal!
 
