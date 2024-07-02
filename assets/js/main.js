@@ -164,7 +164,6 @@
       });
 
       let portfolioFilters = select('#portfolio-filters li', true);
-
       on('click', '#portfolio-filters li', function(e) {
         e.preventDefault();
         portfolioFilters.forEach(function(el) {
@@ -183,16 +182,10 @@
 
   });
 
-  /**
-   * Initiate portfolio lightbox 
-   */
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
   });
 
-  /**
-   * Portfolio details slider 
-   */
   new Swiper('.portfolio-details-slider', {
     speed: 400,
     loop: true,
